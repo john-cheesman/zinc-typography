@@ -1,2 +1,3 @@
-# zinc-typography
+# Zinc Typography
+
 Zinc style library typography component
