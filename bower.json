@@ -1,0 +1,21 @@
+{
+  "name": "zinc-typography",
+  "version": "0.0.0",
+  "homepage": "https://github.com/john-cheesman/zinc-typography",
+  "authors": [
+    "John Cheesman <me@johncheesman.org.uk>"
+  ],
+  "description": "Zinc style library typography component",
+  "main": "_zinc-typography.scss",
+  "license": "MIT",
+  "keywords": [
+    "scss",
+    "typography",
+    "css",
+    "css3",
+    "ui"
+  ],
+  "ignore": [
+    "lib"
+  ]
+}

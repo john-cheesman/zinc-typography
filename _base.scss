@@ -1,0 +1,25 @@
+// Zinc Typography Base
+// > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~
+
+////
+/// @author John Cheesman
+/// @group Typography
+////
+
+/// Modular scale for font sizes
+///
+/// @type map
+///
+/// @source http://www.modularscale.com/?16&px&1.125&web&text
+
+$scale: (
+    giga: 46.184px,
+    mega: 41.053px,
+    kilo: 36.491px,
+    alpha: 25.629px,
+    beta: 22.781px,
+    gamma: 20.25px,
+    delta: 18px,
+    epsilon: 16px,
+    zeta: 14.222px
+) !default;

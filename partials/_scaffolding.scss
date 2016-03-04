@@ -1,0 +1,21 @@
+//
+// Scaffolding
+// > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~
+
+@import '../base';
+@import '../lib/zinc-core/main';
+
+html {
+    font-size: 100%;
+    line-height: $base-line-height;
+}
+
+p {
+    margin: 0 0 $base-sizing 0;
+}
+
+@media (min-width: 1000px) {
+    html {
+        font-size: 112.5%
+    }
+}

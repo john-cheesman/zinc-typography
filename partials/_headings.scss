@@ -1,0 +1,50 @@
+//
+// Headings
+// > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~
+
+@import '../base';
+@import '../lib/zinc-core/main';
+
+h1, h2, h3 {
+    margin: 0 0 $base-sizing 0;
+}
+
+h4, h5, h6 {
+    margin: 0;
+}
+
+h1, .alpha {
+    @include rem(font-size, map-get($scale, alpha));
+}
+
+h2, .beta {
+    @include rem(font-size, map-get($scale, beta));
+}
+
+h3, .gamma {
+    @include rem(font-size, map-get($scale, gamma));
+}
+
+h4, .delta {
+    @include rem(font-size, map-get($scale, delta));
+}
+
+h5, .epsilon {
+    @include rem(font-size, map-get($scale, epsilon));
+}
+
+h6, .heading-zeta {
+    @include rem(font-size, map-get($scale, zeta));
+}
+
+.giga {
+    @include rem(font-size, map-get($scale, giga));
+}
+
+.mega {
+    @include rem(font-size, map-get($scale, mega));
+}
+
+.kilo {
+    @include rem(font-size, map-get($scale, kilo));
+}
