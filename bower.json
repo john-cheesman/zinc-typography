@@ -6,7 +6,7 @@
     "John Cheesman <me@johncheesman.org.uk>"
   ],
   "description": "Zinc style library typography component",
-  "main": "_zinc-typography.scss",
+  "main": "_main.scss",
   "license": "MIT",
   "keywords": [
     "scss",
